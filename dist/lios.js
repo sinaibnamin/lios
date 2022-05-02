@@ -1,0 +1,2 @@
+window.addEventListener("DOMContentLoaded",function(){var c=document.querySelectorAll(".los[data-src]"),d=function(a){if(null!=a.src){var b=new Image;b.src=a.dataset.src;b.onload=function(){a.src=a.dataset.src}}else b=new Image,b.src=a.dataset.src,b.onload=function(){a.style.backgroundImage="url("+a.dataset.src+")"}};c.forEach(function(a){0<window.innerHeight-a.getBoundingClientRect().top&&d(a)});window.onscroll=function(a){c.forEach(function(b){0<window.innerHeight-b.getBoundingClientRect().top&&
+d(b)})}});
