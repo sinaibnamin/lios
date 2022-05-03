@@ -56,13 +56,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
     jumpto('section2')
   };
   documentationbtn.onclick = (e) => {
-    jumpto('documentationsection')
+    jumpto('section2')
   };
   documentationbtnmobile.onclick = (e) => {
     mobilemenu.classList.remove('open')
     overlysection.classList.remove('open')
     body.classList.remove('overflowhidden')
-    jumpto('documentationsection')
+    jumpto('section2')
   };
 
   function jumpto(sectionId) {

@@ -24,7 +24,7 @@
   <div id="navbar" class="navbar">
     <div class="container">
       <div class="logo">
-        <h2>RevealFrom</h2>
+        <h2>LIOS</h2>
       </div>
       <div id="hamicon" class="hamicon">
         <img src="images/menu.svg" alt="icon">
@@ -33,7 +33,7 @@
 
         <a href="javascript:void(0)" id="" class="menu-item">HOME</a>
         <a href="javascript:void(0)" class="menu-item documentationbtn">DOCUMENTATION</a>
-        <a target="_blank" href="https://github.com/sinaibnamin/revealfrom" class="menu-item">GITHUB</a>
+        <a target="_blank" href="https://github.com/sinaibnamin/lios" class="menu-item">GITHUB</a>
 
       </div>
     </div>
@@ -42,8 +42,9 @@
 
     <div class="section-body">
       <div class="container">
-        <h1 class="revealfrom bottom">A lightweight Js library to reveal element on scroll.</h1>
-        <button id="explorebtn" class="revealfrom zoom delay300" type="button" name="button">Explore Now <span> <img src="images/down.svg" alt=""> </span> </button>
+        <h1 class="revealfrom bottom">LIOS - load image on scroll</h1>
+        <p>This Js library also work for background image loading after scroll</p>
+        <button id="explorebtn" class="revealfrom zoom delay300" type="button" name="button">Explore Now<span><img src="images/down.svg" alt=""> </span> </button>
       </div>
 
     </div>
@@ -52,84 +53,95 @@
   </section>
   <section class="section2" id="section2">
     <div class="container ">
-      <div class="example-section">
+
+      <h2 class="section-header" >Working with  &lt;img/&gt; tag</h2>
+
+      <p>Step1: Add Js CDN </p>
+      <textarea disabled><script src="https://cdnworld.000webhostapp.com/cdn/lios.js"></script></textarea>
+
+      <p>Step2: add a className 'lios' in &lt;img/&gt; tag, in src attribute set spinner.gif or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
+      <textarea disabled><img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg"></textarea>
+
+      <p>After Scroll, your desired image will set on src attribute</p>
+      <textarea disabled><img class="lios" src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
+
+      <div class="example image-example">
+
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img2.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img3.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img4.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img5.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img6.jpg">
+        </div>
 
 
       </div>
     </div>
   </section>
 
-  <section class="section3">
-    <div class="container">
-      <h2 class="section-header">Make awesome transition with delay</h2>
-      <div class="example-section2">
-        <div class="revealfrom bottom delay100">
-          <div class="">
-            <p>Reveal From Bottom, delay100</p>
-            <textarea disabled><div class="revealfrom bottom delay100"></div></textarea>
-          </div>
+
+  <section class="section3" id="section3">
+    <div class="container ">
+
+      <h2 class="section-header" >Working with background-image </h2>
+
+      <p>Step1: Add Js CDN </p>
+      <textarea disabled><script src="https://cdnworld.000webhostapp.com/cdn/lios.js"></script></textarea>
+
+      <p>Step2: add a className 'lios' in &lt;img/&gt; tag, in src attribute set spinner.gif or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
+      <textarea disabled><img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg"></textarea>
+
+      <p>After Scroll, your desired image will set on src attribute</p>
+      <textarea disabled><img class="lios" src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
+
+      <div class="example image-example">
+
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg">
         </div>
-        <div class="revealfrom bottom delay300">
-          <div class="">
-            <p>Reveal From Bottom, delay300</p>
-            <textarea disabled><div class="revealfrom bottom delay300"></div></textarea>
-          </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img2.jpg">
         </div>
-        <div class="revealfrom bottom delay500">
-          <div class="">
-            <p>Reveal From Bottom, delay500</p>
-            <textarea disabled><div class="revealfrom bottom delay500"></div></textarea>
-          </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img3.jpg">
         </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img4.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img5.jpg">
+        </div>
+        <div class="">
+          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img6.jpg">
+        </div>
+
+
       </div>
     </div>
   </section>
 
-  <section class="section3">
-    <div class="container">
-        <h2 class="section-header">Transition with bounce</h2>
-      <div class="example-section">
-        <div class="revealfrom left withbounce">
-          <div class="">
-            <p>Reveal From Left With Bounce</p>
-            <textarea disabled><div class="revealfrom left withbounce"></div></textarea>
-          </div>
-        </div>
 
 
-        <div class="revealfrom top withbounce">
-          <div class="">
-            <p>Reveal From Top With Bounce</p>
-            <textarea disabled><div class="revealfrom top withbounce"></div></textarea>
-          </div>
-        </div>
 
-        <div class="revealfrom zoom withbounce">
-          <div class="">
-            <p>Reveal From Zoom With Bounce</p>
-            <textarea disabled><div class="revealfrom zoom withbounce"></div></textarea>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
 
   <section class="documentation-section" id="documentationsection">
     <div class="container">
       <h2 class="section-header">Documentation</h2>
-      <p>Add CSS CDN</p>
-      <textarea disabled><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/revealfrom@1.0.1/revealfrom.css"></textarea>
       <p>Add Js CDN</p>
       <textarea disabled><script src="https://cdn.jsdelivr.net/npm/revealfrom@1.0.1/revealfrom.js"></script></textarea>
-      <p>Please make sure that your section has this two css property:( max-width: 100%; and overflow-x: hidden; )</p>
-      <p><i>Note: Please be careful to use margin or padding in section element. It might be overflow.</i></p>
-      <textarea class="css-property" disabled>
-section {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-      </textarea>
+
 
       <p>Simple Example</p>
       <textarea class="code-example" disabled>
@@ -166,36 +178,7 @@ section {
       </textarea>
 
       <p>npm install</p>
-      <textarea disabled>npm i revealfrom</textarea>
-
-      <p>Available classes</p>
-      <textarea class="available-classes" disabled>
-revealfrom left,
-revealfrom right,
-revealfrom top,
-revealfrom bottom,
-revealfrom flip,
-revealfrom zoom
-      </textarea>
-      <p>Available delay time</p>
-      <textarea class="available-delay" disabled>
-delay100,
-delay200,
-delay300,
-delay400,
-delay500,
-delay600,
-delay700,
-delay800,
-delay900
-      </textarea>
-      <p>Want custom delay time? declare css like below then use it</p>
-      <textarea class="custom-delay" disabled>
-.delay1500{
-  transition-delay:1.5s;
-}
-      </textarea>
-
+      <textarea disabled>npm i lios</textarea>
 
       <a target="_blank" class="button github-btn revealfrom right" href="https://github.com/sinaibnamin/revealfrom">Give a Star on Github</a>
 
