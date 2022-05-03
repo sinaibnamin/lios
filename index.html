@@ -59,11 +59,11 @@
       <p>Step1: Add Js CDN </p>
       <textarea disabled><script src="https://cdnworld.000webhostapp.com/cdn/lios.js"></script></textarea>
 
-      <p>Step2: add a className 'lios' in &lt;img/&gt; tag, in src attribute set spinner.gif or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
+      <p>Step2: Add a className 'lios' in &lt;img/&gt; tag, in src attribute set spinner.gif or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
       <textarea disabled><img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg"></textarea>
 
-      <p>After Scroll, your desired image will set on src attribute</p>
-      <textarea disabled><img class="lios" src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
+      <p>After Scroll, your desired image will set on src attribute and 'lios' will be removed from classList.</p>
+      <textarea disabled><img src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
       <p style="margin-bottom:10px;">Example</p>
       <div class="example image-example">
 
@@ -100,18 +100,18 @@
       <p>Step1: Add Js CDN </p>
       <textarea disabled><script src="https://cdnworld.000webhostapp.com/cdn/lios.js"></script></textarea>
 
-      <p>Step2: add a className 'lios' in your element, set style="background-image: spinner.gif" or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
+      <p>Step2: Add a className 'lios' in your element, set style="background-image: spinner.gif" or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
       <p>Note: you can also set background-color instead of background-image</p>
       <textarea disabled class="threelinetextarea">
-<div style="background-image:url(loader.gif);" class="lios" data-src="bg1.jpg"></div>
+<div style="background-image:url(images/loader.gif);" class="lios" data-src="images/bg1.jpg"></div>
 
 or
 
-<div style="background-color:red;" class="lios" data-src="bg1.jpg"></div>
+<div style="background-color:red;" class="lios" data-src="images/bg1.jpg"></div>
       </textarea>
 
-      <p>After Scroll, your desired image will set on src attribute</p>
-      <textarea disabled><div class="lios" style="background-image: url(images/bg1.jpg);" data-src="images/bg1.jpg"></div></textarea>
+      <p>After Scroll, your desired image will set on src attribute and 'lios' will be removed from classList.</p>
+      <textarea disabled><div style="background-image: url(images/bg1.jpg);" data-src="images/bg1.jpg"></div></textarea>
 
 
 
