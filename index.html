@@ -64,7 +64,7 @@
 
       <p>After Scroll, your desired image will set on src attribute</p>
       <textarea disabled><img class="lios" src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
-
+      <p style="margin-bottom:10px;">Example</p>
       <div class="example image-example">
 
         <div class="">
@@ -100,33 +100,34 @@
       <p>Step1: Add Js CDN </p>
       <textarea disabled><script src="https://cdnworld.000webhostapp.com/cdn/lios.js"></script></textarea>
 
-      <p>Step2: add a className 'lios' in &lt;img/&gt; tag, in src attribute set spinner.gif or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
-      <textarea disabled><img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg"></textarea>
+      <p>Step2: add a className 'lios' in your element, set style="background-image: spinner.gif" or any lightweight image(jpg, png ,gif etc.) and set your desired image in data-src attribute.</p>
+      <p>Note: you can also set background-color instead of background-image</p>
+      <textarea disabled class="threelinetextarea">
+<div style="background-image:url(loader.gif);" class="lios" data-src="bg1.jpg"></div>
+
+or
+
+<div style="background-color:red;" class="lios" data-src="bg1.jpg"></div>
+      </textarea>
 
       <p>After Scroll, your desired image will set on src attribute</p>
-      <textarea disabled><img class="lios" src="images/img1.jpg" alt="image" data-src="images/img1.jpg"></textarea>
+      <textarea disabled><div class="lios" style="background-image: url(images/bg1.jpg);" data-src="images/bg1.jpg"></div></textarea>
 
-      <div class="example image-example">
 
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img1.jpg">
-        </div>
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img2.jpg">
-        </div>
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img3.jpg">
-        </div>
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img4.jpg">
-        </div>
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img5.jpg">
-        </div>
-        <div class="">
-          <img class="lios" src="images/spinner.gif" alt="image" data-src="images/img6.jpg">
-        </div>
 
+      <div class="example bg-example">
+
+        <p>Example with initial lightweight background-image</p>
+        <div style="background-image:url(images/bg1_lite.jpg);" class="bgimage lios" data-src="images/bg1.jpg"></div>
+        <div style="background-image:url(images/bg2_lite.jpg);" class="bgimage lios" data-src="images/bg2.jpg"></div>
+        <div style="background-image:url(images/bg3_lite.jpg);" class="bgimage lios" data-src="images/bg3.jpg"></div>
+
+        <p>Example with initial background-color</p>
+        <div style="background-color:black;" class="bgimage lios" data-src="images/bg4.jpg"></div>
+        <div style="background-color:black;" class="bgimage lios" data-src="images/bg5.jpg"></div>
+        <div style="background-color:black;" class="bgimage lios" data-src="images/bg6.jpg"></div>
+
+        <a target="_blank" class="button github-btn" href="https://github.com/sinaibnamin/lios">Give a Star on Github</a>
 
       </div>
     </div>
@@ -136,54 +137,7 @@
 
 
 
-  <section class="documentation-section" id="documentationsection">
-    <div class="container">
-      <h2 class="section-header">Documentation</h2>
-      <p>Add Js CDN</p>
-      <textarea disabled><script src="https://cdn.jsdelivr.net/npm/revealfrom@1.0.1/revealfrom.js"></script></textarea>
 
-
-      <p>Simple Example</p>
-      <textarea class="code-example" disabled>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Your Website Title</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/revealfrom@1.0.1/revealfrom.css">
-  <style media="screen">
-    section {
-      width: 100%;
-      max-width: 100%;
-      overflow-x: hidden;
-      background: #f3f3f3;
-    }
-    h2{
-      margin:150px;
-    }
-  </style>
-</head>
-<body>
-
-  <section>
-    <div class="revealfrom left">
-      <h2>Hello World</h2>
-    </div>
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/revealfrom@1.0.1/revealfrom.js"></script>
-</body>
-</html>
-      </textarea>
-
-      <p>npm install</p>
-      <textarea disabled>npm i lios</textarea>
-
-      <a target="_blank" class="button github-btn revealfrom right" href="https://github.com/sinaibnamin/revealfrom">Give a Star on Github</a>
-
-    </div>
-  </section>
 
 
 
