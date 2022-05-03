@@ -1,0 +1,29 @@
+{
+  "name": "lios",
+  "version": "1.0.0",
+  "description": "load image on scroll. This Js library also work for background-image.",
+  "main": "lios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinaibnamin/lios.git"
+  },
+  "keywords": [
+    "lios",
+    "load",
+    "image",
+    "and",
+    "background",
+    "image",
+    "on",
+    "scroll"
+  ],
+  "author": "Sina Ibn Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinaibnamin/lios/issues"
+  },
+  "homepage": "https://sinaibnamin.github.io/lios/"
+}
